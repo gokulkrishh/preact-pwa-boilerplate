@@ -15,7 +15,7 @@ Below is a step-by-step guide that takes you straight from downloading this boil
 
 ### What changes are done ?
 
-Added ```serviceWorker``` for offline support, ```manifest.json``` file for add to homescreen support, cool preact icons from site and updated preact to latest version(7.1.0) + yarn ;). Rest all the same!!
+Added ```serviceWorker``` for offline support, ```manifest.json``` file for add to homescreen support, cool preact icons from preact site and updated preact to latest version(7.1.0) + yarn ;). Rest all the same!!
 
 # Quick-Start Guide
 
