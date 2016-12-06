@@ -1,6 +1,6 @@
 # Preact PWA Boilerplate / Starter Kit
 
-[![Build Status](https://travis-ci.org/developit/preact-boilerplate.svg?branch=master)](https://travis-ci.org/developit/preact-boilerplate)
+[![Build Status](https://travis-ci.org/gokulkrishh/preact-pwa-boilerplate.svg?branch=master)](https://travis-ci.org/gokulkrishh/preact-pwa-boilerplate)
 [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/developit/preact)
 
 > :guitar: Ready-to-rock [Preact] starter project, powered by [webpack].
@@ -13,9 +13,16 @@ Below is a step-by-step guide that takes you straight from downloading this boil
 
 ---
 
-### What changes are done ?
+## What changes are done?
 
-Added ```serviceWorker``` for offline support, ```manifest.json``` file for add to homescreen support, cool preact icons from preact site and updated preact to latest version(7.1.0) + yarn ;). Rest all the same!!
+Added ```serviceWorker``` for offline support, ```manifest.json``` file for add to homescreen support, cool icons from preact site and updated preact to latest version(7.1.0) + yarn ;). Rest all the same!!
+
+Thanks to [Jason Miller](https://github.com/developit) for writing a simple and awesome boilerplate.
+
+## What else do you want?
+
+- [ ] - Travis with lighthouse support
+- [ ] - Feel free to create issue and make this repo awesome ;)
 
 # Quick-Start Guide
 
