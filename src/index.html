@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>preact-pwa-boilerplate</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta name="description" content="Preact PWA">
+		<meta name="msapplication-TileColor" content="#673ab8">
+    <meta name="msapplication-TileImage" content="./assets/icons/mstile-150x150.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Preact PWA">
+    <meta name="application-name" content="Preact PWA">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="theme-color" content="#673ab8">
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="./assets/icons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./manifest.json">
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+		  //If serviceWorker supports, then register it.
+		  if ("serviceWorker" in navigator) {
+		    navigator.serviceWorker.register('./serviceWorker.js', { scope: "./" }) //setting scope of sw
+		    .then(function (registration) {
+		      console.log('Service worker is registered!');
+		    })
+		    .catch(function (error) {
+		      console.error('Service worker failed ', error);
+		    });
+		  }
+  	</script>
+	</body>
+</html>
